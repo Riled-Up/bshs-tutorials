@@ -52,8 +52,8 @@ print(pi)
 
 # You can also get input from the user with the raw_input function.
 print("Type something")
-userInput = raw_input()
+userInput = input()
 print("You typed in: " + userInput)
 
 # You could have done the same thing like this:
-print("Riley is the " + raw_input() + " club president ever.")
+print("Riley is the " + input() + " club president ever.")
