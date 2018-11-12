@@ -36,7 +36,7 @@ else:
 
 # You can put if statements inside of each other, as well.
 if(mysteryNumber < 10):
-    if (mysteryNumber < 5):
+    if(mysteryNumber < 5):
         print("The number is between 0 and 4")
     elif(mysteryNumber > 5):
         print("The number is between 6 and 9")
