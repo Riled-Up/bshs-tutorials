@@ -1,6 +1,7 @@
 # There are multiple ways to do this correctly, this is just the example
 # I wrote.
 
+print("Type in the name of a song:")
 oldSong = input()  # Get input from user
 oldSong = oldSong.upper()  # Capitalize everything
 newSong = ""  # Create a new blank string
@@ -11,6 +12,6 @@ for letter in oldSong.upper():  # Go through every letter in oldSong
         newSong += '1'
     elif(letter == 'S'):  # Add 'Z' if it's 'S'
         newSong += 'Z'
-    else:  # Since it wasn't those, we don't change it before adding it.
-        newSong += letter 
+    else:  # It wasn't any of those, we don't change it before adding
+        newSong += letter
 print(newSong)  # Once every letter has been gone through we print it
