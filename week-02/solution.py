@@ -12,6 +12,6 @@ for letter in oldSong.upper():  # Go through every letter in oldSong
         newSong += '1'
     elif(letter == 'S'):  # Add 'Z' if it's 'S'
         newSong += 'Z'
-    else:  # It wasn't any of those, we don't change it before adding
+    else:  # It wasn't any of those, so we don't change it before adding
         newSong += letter
-print(newSong)  # Once every letter has been gone through we print it
+print(newSong)  # Once every letter has been gone through, we print it
