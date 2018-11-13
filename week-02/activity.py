@@ -13,4 +13,5 @@
 # clout cobain -> CLOUT CO13A1N
 
 # A quick way to make an entire string uppercase is to do
-# 
+exampleString = "bshs"
+exampleString = exampleString.upper()
